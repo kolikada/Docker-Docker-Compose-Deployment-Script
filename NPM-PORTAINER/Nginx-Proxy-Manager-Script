@@ -38,3 +38,16 @@ services:
       - ./mysql:/var/lib/mysql
 --------------------------------------------------------------------
 docker compose up -d
+
+
+
+
+
+NEW VERSION NPM
+cd ~/npm-custom-build
+docker compose down
+docker compose up -d
+nano Dockerfile
+docker-compose.yml
+
+
